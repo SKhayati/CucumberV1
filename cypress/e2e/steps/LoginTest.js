@@ -26,6 +26,7 @@ When("cliquer sur logout", () => {
 
     loginPage.btLogout()
 });
+
 Then('verification', () => {
     cy.get('.oxd-button').should('be.visible')
 });
